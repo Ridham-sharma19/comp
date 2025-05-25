@@ -12,7 +12,7 @@ import {
 
 export default function MotionHookExample() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const backgrounds = ["#1e293b", "#b45309", "#7c3aed"];
+  const backgrounds = [ "#b45309","#1e293b", "#7c3aed"];
   const [background, setBackground] = useState(backgrounds[0]);
 
   const { scrollYProgress } = useScroll({
@@ -88,9 +88,9 @@ type Feature = {
 const features: Feature[] = [
   {
     icon: <IconRocket className="h-8 w-8 text-neutral-200" />,
-    title: "tatatatata",
+    title: "Ridham",
     description:
-      "With our state of the art AI, you can generate ultra realistic images in no time at all.",
+      "Check this out I have build this with Motion taught by Manu paji",
     content: (
       <div>
         <Image
@@ -105,13 +105,13 @@ const features: Feature[] = [
   },
   {
     icon: <IconRocket className="h-8 w-8 text-neutral-200" />,
-    title: "wawawawa",
+    title: "Manu Paji",
     description:
-      "With our state of the art AI, you can generate ultra realistic images in no time at all.",
+      "Hm hm hm .................",
     content: (
       <div>
         <Image
-          src="/p1.png"
+          src="/manupaji.jpg"
           alt="car"
           height={350}
           width={350}
@@ -122,13 +122,13 @@ const features: Feature[] = [
   },
   {
     icon: <IconRocket className="h-8 w-8 text-neutral-200" />,
-    title: "hahhahaha",
+    title: "here is your Merch",
     description:
-      "With our state of t, you can generate ultra realistic images in no time at all.",
+      "cool T-shirt from my side, it will suit u ",
     content: (
       <div>
         <Image
-          src="/p2.png"
+          src="/acc.png"
           alt="car"
           height={350}
           width={350}
